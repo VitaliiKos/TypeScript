@@ -1,0 +1,19 @@
+.todoList{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.check{
+    text-decoration: line-through;
+}
+.checkButton>button{
+    background: #efbbbb;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+input[type="checkbox" i] {
+    cursor: pointer;
+}

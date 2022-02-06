@@ -1,10 +1,13 @@
-import React from 'react';
+import React, {FC} from 'react';
 
-const App = () => {
+import {Form, TodoList} from "./components";
+import css from './App.module.css';
+
+const App: FC = () => {
     return (
-        <div>
-          <h3>APP</h3>
-
+        <div className={css.App}>
+            <Form/>
+            <TodoList/>
         </div>
     );
 };

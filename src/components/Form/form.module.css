@@ -1,0 +1,10 @@
+.todoResult{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    column-gap: 20px;
+    background: #67ffd8;
+}
+form>button{
+    background: #a1ec3c;
+}
